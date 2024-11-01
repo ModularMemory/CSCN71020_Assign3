@@ -15,7 +15,10 @@ void runRps(const char* player1Input, const char* player2Input, char result[RESU
     char* resultString = INVALID_INPUT;
 
     if (strcmp(player1Input, ROCK) == 0) {
-        if (strcmp(player2Input, SCISSORS) == 0) {
+        if (strcmp(player2Input, PAPER) == 0) {
+            resultString = PLAYER_2_WINS;
+        }
+        else if (strcmp(player2Input, SCISSORS) == 0) {
             resultString = PLAYER_1_WINS;
         }
     }
