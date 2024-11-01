@@ -80,5 +80,17 @@ namespace RPSLibTests
 
             Assert::AreEqual(EXPECTED, actual);
         }
+
+        TEST_METHOD(Player2Wins_WhenPaperVsScissors)
+        {
+            const char* PLAYER_1_INPUT = PAPER;
+            const char* PLAYER_2_INPUT = SCISSORS;
+            const char* EXPECTED = PLAYER_2_WINS;
+
+            char actual[RESULT_MAX_LENGTH] = { 0 };
+            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+
+            Assert::AreEqual(EXPECTED, actual);
+        }
     };
 }
