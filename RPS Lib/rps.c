@@ -36,6 +36,11 @@ void runRps(const char* player1Input, const char* player2Input, char result[RESU
             resultString = PLAYER_2_WINS;
         }
     }
+    else if (strcmp(player1Input, SCISSORS) == 0) {
+        if (strcmp(player2Input, ROCK) == 0) {
+            resultString = PLAYER_2_WINS;
+        }
+    }
 
     strncpy_s(result, RESULT_MAX_LENGTH * sizeof(char), resultString, strlen(resultString));
 }
