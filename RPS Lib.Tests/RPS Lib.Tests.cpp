@@ -21,6 +21,18 @@ namespace RPSLibTests
     {
     public:
         
+        TEST_METHOD(Draw_WhenRockVsRock)
+        {
+            const char* PLAYER_1_INPUT = ROCK;
+            const char* PLAYER_2_INPUT = ROCK;
+            const char* EXPECTED = DRAW;
+
+            char actual[RESULT_MAX_LENGTH] = { 0 };
+            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+
+            Assert::AreEqual(EXPECTED, actual);
+        }
+
         TEST_METHOD(Player2Wins_WhenRockVsPaper)
         {
             const char* PLAYER_1_INPUT = ROCK;
