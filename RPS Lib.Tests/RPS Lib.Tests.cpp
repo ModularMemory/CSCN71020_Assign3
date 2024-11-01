@@ -128,5 +128,17 @@ namespace RPSLibTests
 
             Assert::AreEqual(EXPECTED, actual);
         }
+
+        TEST_METHOD(Invalid_WhenInvalidInput)
+        {
+            const char* PLAYER_1_INPUT = ROCK;
+            const char* PLAYER_2_INPUT = "Foo";
+            const char* EXPECTED = INVALID_INPUT;
+
+            char actual[RESULT_MAX_LENGTH] = { 0 };
+            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+
+            Assert::AreEqual(EXPECTED, actual);
+        }
     };
 }
