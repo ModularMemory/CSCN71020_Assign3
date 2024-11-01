@@ -68,5 +68,17 @@ namespace RPSLibTests
 
             Assert::AreEqual(EXPECTED, actual);
         }
+
+        TEST_METHOD(Draw_WhenPaperVsPaper)
+        {
+            const char* PLAYER_1_INPUT = PAPER;
+            const char* PLAYER_2_INPUT = PAPER;
+            const char* EXPECTED = DRAW;
+
+            char actual[RESULT_MAX_LENGTH] = { 0 };
+            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+
+            Assert::AreEqual(EXPECTED, actual);
+        }
     };
 }
