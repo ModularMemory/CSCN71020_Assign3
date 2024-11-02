@@ -60,6 +60,6 @@ void rockPaperScissors(const char* player1Input, const char* player2Input, char 
         }
     }
 
-    // Copy resultString to result array
+    // Copy contents of resultString to result array
     strncpy_s(result, RESULT_MAX_LENGTH * sizeof(char), resultString, strlen(resultString));
 }
