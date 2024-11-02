@@ -32,7 +32,7 @@ namespace RPSLibTests
 
             // Act
             char actual[RESULT_MAX_LENGTH] = { 0 };
-            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+            rockPaperScissors(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
 
             // Assert
             Assert::AreEqual(EXPECTED, actual);
@@ -47,7 +47,7 @@ namespace RPSLibTests
 
             // Act
             char actual[RESULT_MAX_LENGTH] = { 0 };
-            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+            rockPaperScissors(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
 
             // Assert
             Assert::AreEqual(EXPECTED, actual);
@@ -62,7 +62,7 @@ namespace RPSLibTests
 
             // Act
             char actual[RESULT_MAX_LENGTH] = { 0 };
-            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+            rockPaperScissors(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
 
             // Assert
             Assert::AreEqual(EXPECTED, actual);
@@ -77,7 +77,7 @@ namespace RPSLibTests
 
             // Act
             char actual[RESULT_MAX_LENGTH] = { 0 };
-            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+            rockPaperScissors(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
 
             // Assert
             Assert::AreEqual(EXPECTED, actual);
@@ -92,7 +92,7 @@ namespace RPSLibTests
 
             // Act
             char actual[RESULT_MAX_LENGTH] = { 0 };
-            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+            rockPaperScissors(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
 
             // Assert
             Assert::AreEqual(EXPECTED, actual);
@@ -107,7 +107,7 @@ namespace RPSLibTests
 
             // Act
             char actual[RESULT_MAX_LENGTH] = { 0 };
-            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+            rockPaperScissors(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
 
             // Assert
             Assert::AreEqual(EXPECTED, actual);
@@ -122,7 +122,7 @@ namespace RPSLibTests
 
             // Act
             char actual[RESULT_MAX_LENGTH] = { 0 };
-            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+            rockPaperScissors(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
 
             // Assert
             Assert::AreEqual(EXPECTED, actual);
@@ -137,7 +137,7 @@ namespace RPSLibTests
 
             // Act
             char actual[RESULT_MAX_LENGTH] = { 0 };
-            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+            rockPaperScissors(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
 
             // Assert
             Assert::AreEqual(EXPECTED, actual);
@@ -152,7 +152,7 @@ namespace RPSLibTests
 
             // Act
             char actual[RESULT_MAX_LENGTH] = { 0 };
-            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+            rockPaperScissors(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
 
             // Assert
             Assert::AreEqual(EXPECTED, actual);
@@ -167,7 +167,7 @@ namespace RPSLibTests
 
             // Act
             char actual[RESULT_MAX_LENGTH] = { 0 };
-            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+            rockPaperScissors(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
 
             // Assert
             Assert::AreEqual(EXPECTED, actual);
@@ -182,7 +182,7 @@ namespace RPSLibTests
 
             // Act
             char actual[RESULT_MAX_LENGTH] = { 0 };
-            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+            rockPaperScissors(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
 
             // Assert
             Assert::AreEqual(EXPECTED, actual);
@@ -197,7 +197,7 @@ namespace RPSLibTests
 
             // Act
             char actual[RESULT_MAX_LENGTH] = { 0 };
-            runRps(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
+            rockPaperScissors(PLAYER_1_INPUT, PLAYER_2_INPUT, actual);
 
             // Assert
             Assert::AreEqual(EXPECTED, actual);

@@ -13,7 +13,7 @@
 #define DRAW "Draw"
 #define INVALID_INPUT "Invalid"
 
-void runRps(const char* player1Input, const char* player2Input, char result[RESULT_MAX_LENGTH]) {
+void rockPaperScissors(const char* player1Input, const char* player2Input, char result[RESULT_MAX_LENGTH]) {
     // Initialize with invalid input message by default
     char* resultString = INVALID_INPUT;
 
